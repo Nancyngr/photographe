@@ -1,56 +1,72 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;1,100&family=Lora:ital@0;1&family=Roboto+Slab:wght@200;300&display=swap');
 
-body{
-  margin: 0 auto; 
-  padding: 0;
-  font-family: 'Fira Sans','Lora','Roboto Slab',sans-serif;
+*{
+font-family: 'Fira Sans''Lora''Roboto Slab', sans-serif;
 }
 
-/* tete de page*/
-.header{
-display: flex;
-align-items: center;
+body{
+  margin: 0; 
+  padding: 0;
 }
-#bloc-page{
-  display: flex;
-  justify-content: space-around;
-}
-.header img{
-  flex: 1 1 40rem;
+/* logo*/
+.logo{
+  width: 50px;
+  height: 90px;
+  margin-right: -600px;
+  margin-bottom: 250px;
+
+  
 }
 
 /* navigation*/
-nav{
+.menu-nav {
+  list-style-type: none;
   display: flex;
-  justify-content: space-between;
-  width: 900px;
-  margin-left: 50px;
-  align-items: center;
-  font-size: 40px;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 3px;
+  margin-left:300px;
+  margin-top: -50px;
+  margin-bottom: 250px;
 }
 
-nav a{
-  text-decoration: none;
-}
-
-/* image principale*/
+/* image principela*/
 .image-principale{
   background-size: cover;
-  height: 90vh;
-  padding: 25px;
   width: 100%;
+  margin-bottom: 60px;
 }
+/* premiere-partie */
+.premiere-partie {
+  width: 100%;
+ display: flex;
+ justify-content: space-between;
+ margin-right: 20px;
+}
+.premiere-partie .article p{
+  margin-right: 50px;
+}
+.premiere-partie img {
+  width: 40em;
+  height: 30em;
+}
+.premiere-partie h2{
+  font-size: 40x;
+  font-family: 'Fira Sans';
+  margin-left: 20px;
+}
+/* seconde-partie */
 
-/* premiere-partie*/
-#premiere-partie .left p{
-flex: 0 0 30%;
-padding: 20px;
-flex-wrap: wrap;
+.photos{
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  width: 10px;
+  /*margin:10%;*/
+  margin-bottom: 100%;
 
 }
-#premiere-partie .right img{
-  height: 400px;
-  withd:300px
-  justify-content:center;
-  
+h2{
+  text-align: center;
+}
